@@ -1,0 +1,150 @@
+
+/*/ background colour /*/
+
+body{
+	background-color: #0E0B16;
+}
+
+
+/*/ heading and text /*/
+h1{
+ 	font-family: "Georgia";
+	font-size: 70px;
+	text-align: center;
+	color: #E7DFDD;
+}
+
+
+
+.subhead{
+	 font-family: "Georgia";
+	font-size: 45px;
+	text-align: center;
+	color: #E7DFDD;
+	
+}
+
+p{
+	font-family: "Verdana";
+	font-size: 17px;
+	text-align: left;
+	color: #E7DFDD;
+}
+
+.col{
+	text-align: center;
+}
+
+ul{
+	
+	font-family: "Verdana";
+	font-size: 20px;
+	text-align: left;
+	color: #E7DFDD;
+	
+}
+
+/*/ layout/*/
+
+.column2 {
+    float: left;
+    width: 48%;
+    padding: 1%;
+   
+}
+
+.column3 {
+    float: left;
+    width: 32%;
+    padding: 0.5%;
+   
+}
+
+.left {
+  width: 33%;
+  padding: 2%;
+  float: left;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+	
+}
+
+/*/ nav bar/*/
+.navbar {
+  overflow: hidden;
+  background-color: #0E0B16;
+  position: fixed;
+  padding-left: 37%;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #E7DFDD;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 23px;
+  font-family: "Verdana";
+}
+
+.navbar a:hover {
+  background: #A239CA;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/*/ images /*/
+
+.home{
+	float: none;
+	position: fixed;
+	padding-left: 5%;
+	padding-top: 3%;
+}
+
+.projectsImg{
+	float: none;
+	padding-left: 22%;
+	width: 350px;
+	height: 200px;
+}
+
+
+.slide{
+	
+	float:none;
+	padding-left: 20%;
+	padding-right: 10%;
+	width: 1200px;
+	height: 200px;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .2} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .2} 
+  to {opacity: 1}
+}
+
